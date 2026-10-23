@@ -3,17 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Six circles. One live stream. Click to listen." />
-    <title>CLICK — NTS Live</title>
+    <title>CLICK</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <main class="page-shell">
-      <header class="site-header">
-        <p class="eyebrow">NTS LIVE</p>
-        <p class="status" id="status" aria-live="polite">SELECT A CIRCLE</p>
-      </header>
-
       <section class="circle-grid" aria-label="Audio controls">
         <button class="circle" type="button" aria-label="Play NTS stream" data-circle="1"></button>
         <button class="circle" type="button" aria-label="Play NTS stream" data-circle="2"></button>
@@ -23,10 +17,6 @@
         <button class="circle" type="button" aria-label="Play NTS stream" data-circle="6"></button>
       </section>
 
-      <footer class="site-footer">
-        <span>CLICK TO LISTEN</span>
-        <span>01—06</span>
-      </footer>
     </main>
 
     <audio id="audio" preload="none"></audio>
